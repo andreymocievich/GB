@@ -20,4 +20,34 @@ public class Main {
         System.out.println(j);
         System.out.println(i);
     }
+
+    public static int calculation(int a, int b, int c, int d) {
+
+        return a * (b + (c / d));
+    }
+
+    public static int sum(int a, int b) {
+        int c;
+        c = (c >= 10 && c <= 20);
+
+        return c;
+    }
+
+    public static int positiveNumber(int num) {
+        if (num < 0) {
+            System.out.println("Число отрицательное");
+        } else {
+            System.out.println("Число положительное");
+        }
+    }
+
+    public static boolean getNumber(int number) {
+        boolean result = (number < 0);
+        return result;
+    }
+
+    public static void helloName(String name) {
+        System.out.println("Привет, " + name);
+    }
 }
+
