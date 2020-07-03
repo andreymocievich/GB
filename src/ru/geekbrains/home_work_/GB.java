@@ -1,6 +1,6 @@
 package ru.geekbrains.home_work_;
 
-public class Main {
+public class GB {
 
     public static void main(String[] args) {
         byte a = -100;
